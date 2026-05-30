@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --color-primary: #e65100; /* Rich royal deep Kesariya saffron for key interactive elements */
+  --color-gold-cream: #b37400; /* Deep sanctum gold-ochre */
+  --color-deep-black: #fff5e6; /* Elegant bright light Kesariya-cream base background */
+  --color-charcoal-gray: #ffffff; /* Luminous clean canvas container blocks */
+  --color-bronze-border: #f5d6c1; /* Soft sanctum terracotta/sandstone borders */
+  --color-on-surface: #3a1506; /* Sacred deep earthy terracotta-mahogany text for peak readability */
+  --color-on-surface-variant: #6b3e23; /* Warm sandalwood-brown secondary text */
+  --color-outline: #ff7300; /* Accent warm Kesariya accent outlines */
+  --color-outline-variant: #fcd5b8; /* Soft warm terracotta partition lines */
+}
+
+/* Custom classes for the luxury sacred mood */
+.divine-glow {
+  box-shadow: 0 0 30px rgba(255, 120, 31, 0.15);
+}
+
+.divine-glow-hover:hover {
+  box-shadow: 0 0 45px rgba(255, 120, 31, 0.28);
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(255, 120, 31, 0.4);
+}
+
+/* Custom animations for transitions */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes pulseSlow {
+  0%, 100% { opacity: 0.2; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.05); }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 6s infinite ease-in-out;
+}

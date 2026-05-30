@@ -1,0 +1,6 @@
+{
+  "name": "SHREE NARAYANI VEDICA E-Commerce",
+  "description": "An immersive, luxury e-commerce platform for SHREE NARAYANI VEDICA's premium organic dhoop, agarbatti, and havan samagri collection, featuring state-of-the-art interactive detail pages, a working local storage cart, secure checkout, multilingual toggle, and an active admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
